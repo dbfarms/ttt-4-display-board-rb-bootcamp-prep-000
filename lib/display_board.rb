@@ -7,9 +7,5 @@ def display_board(game)
   row_four = "-----------"
   row_five = [" #{game[6]} ", "|", " #{game[7]} ", "|" " #{game[8]} "]
   rows = [row_one, row_two, row_Three, row_four, row_five]
-  puts row_one
-  puts row_two
-  puts row_three
-  puts row_four
-  puts row_five
+  puts rows
 end
