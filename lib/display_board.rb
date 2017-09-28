@@ -12,5 +12,4 @@ def display_board(game)
   print row_three
   print row_four
   print row_five
-
 end
