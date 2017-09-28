@@ -6,6 +6,7 @@ def display_board(game)
   row_three = [" #{game[3]} ", "|", " #{game[4]} ", "|" " #{game[5]} "]
   row_four = "-----------"
   row_five = [" #{game[6]} ", "|", " #{game[7]} ", "|" " #{game[8]} "]
+  rows = [row_one, row_two, row_Three, row_four, row_five]
   puts row_one
   puts row_two
   puts row_three
